@@ -1,0 +1,38 @@
+apiVersion: v1
+entries:
+  jenkins:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 2.332.1
+    created: "2022-06-13T10:57:43.450749498+01:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Jenkins is an open source Continuous Integration and Continuous Delivery
+      (CI/CD) server designed to automate the building, testing, and deploying of
+      any software project.
+    digest: 9b010702b7690007025dbc746f42bc82b3d65233fc859a924423a7ad8d5dbab0
+    home: https://github.com/bitnami/charts/tree/master/bitnami/jenkins
+    icon: https://bitnami.com/assets/stacks/jenkins/img/jenkins-stack-220x234.png
+    keywords:
+    - jenkins
+    - ci
+    - cd
+    - http
+    - web
+    - application
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: jenkins
+    sources:
+    - https://github.com/bitnami/bitnami-docker-jenkins
+    - https://jenkins.io/
+    urls:
+    - jenkins-9.0.12.tgz
+    version: 9.0.12
+generated: "2022-06-13T10:57:43.447981359+01:00"
